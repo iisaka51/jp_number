@@ -13,20 +13,21 @@ def get_version(rel_path):
         raise RuntimeError("Unable to find version string.")
 
 setup(
-    name="jp_prefecture",
-    version=get_version('jp_prefecture/versions.py'),
+    name="jp_number",
+    version=get_version('jp_number/versions.py'),
     license="MIT",
-    install_requirements=["pandas"],
+    install_requirements=[""],
     author="iisaka51",
     author_email="iisaka51@gmail.com",
-    url="https://github.com/iisaka51/jp_prefecture",
-    description="Simple utilitiy convert name of japanese prefectures",
+    url="https://github.com/iisaka51/jp_numbers",
+    description="Conver number from/to Japanese Numbers",
     long_description=long_description,
     long_description_content_type='text/markdown',
     packages=find_packages(),
-    package_data={'': [ 'data/cities.csv' ]},
     classifiers=[
         "License :: OSI Approved :: MIT License",
+        "Programming Language :: Python :: 3.8",
+        "Programming Language :: Python :: 3.9",
         "Programming Language :: Python :: 3.10",
     ],
 )
