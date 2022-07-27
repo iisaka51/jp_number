@@ -1,5 +1,5 @@
 # jp_numbers.
-Conver number from/to Japanese Numbers
+Convert numbers from/to Japanese Numbers
 This is spin-off project from [jp_prefecture](https://pypi.org/project/jp-prefecture/)
 
 ## Install
