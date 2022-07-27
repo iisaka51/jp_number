@@ -14,12 +14,12 @@ def get_version(rel_path):
 
 setup(
     name="jp_number",
-    version=get_version('jp_numbers/versions.py'),
+    version=get_version('jp_number/versions.py'),
     license="MIT",
     install_requirements=[""],
     author="iisaka51",
     author_email="iisaka51@gmail.com",
-    url="https://github.com/iisaka51/jp_numbers",
+    url="https://github.com/iisaka51/jp_number",
     description="Convert numbers from/to Japanese Numbers",
     long_description=long_description,
     long_description_content_type='text/markdown',
