@@ -16,7 +16,7 @@ setup(
     name="jp_number",
     version=get_version('jp_number/versions.py'),
     license="MIT",
-    install_requirements=[""],
+    install_requires=[""],
     author="iisaka51",
     author_email="iisaka51@gmail.com",
     url="https://github.com/iisaka51/jp_number",
